@@ -390,6 +390,9 @@
   .text-\[22px\] {
     font-size: 22px;
   }
+  .text-\[23px\] {
+    font-size: 23px;
+  }
   .text-\[28px\] {
     font-size: 28px;
   }
@@ -486,6 +489,16 @@
   .lg\:text-left {
     @media (width >= 64rem) {
       text-align: left;
+    }
+  }
+  .lg\:text-start {
+    @media (width >= 64rem) {
+      text-align: start;
+    }
+  }
+  .lg\:text-\[44px\] {
+    @media (width >= 64rem) {
+      font-size: 44px;
     }
   }
   .lg\:text-\[45px\] {
