@@ -213,6 +213,12 @@
   .h-\[60px\] {
     height: 60px;
   }
+  .h-\[70px\] {
+    height: 70px;
+  }
+  .h-\[550px\] {
+    height: 550px;
+  }
   .h-\[800px\] {
     height: 800px;
   }
@@ -240,11 +246,20 @@
   .w-\[170px\] {
     width: 170px;
   }
+  .w-\[200px\] {
+    width: 200px;
+  }
+  .w-\[350px\] {
+    width: 350px;
+  }
   .w-full {
     width: 100%;
   }
   .max-w-7xl {
     max-width: var(--container-7xl);
+  }
+  .max-w-full {
+    max-width: 100%;
   }
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -314,8 +329,23 @@
   .bg-\[\#EFD372\] {
     background-color: #EFD372;
   }
+  .bg-\[\#EFF6F1\] {
+    background-color: #EFF6F1;
+  }
   .bg-\[\#F9F8F8\] {
     background-color: #F9F8F8;
+  }
+  .bg-white {
+    background-color: var(--color-white);
+  }
+  .bg-\[url\(\.\/img\/Noone\.png\)\] {
+    background-image: url(./img/Noone.png);
+  }
+  .bg-\[url\(\.\/img\/Nuts\.png\)\] {
+    background-image: url(./img/Nuts.png);
+  }
+  .bg-\[url\(\.\/img\/Organic\.png\)\] {
+    background-image: url(./img/Organic.png);
   }
   .bg-\[url\(\.\/img\/Rectangle\.png\)\] {
     background-image: url(./img/Rectangle.png);
@@ -392,6 +422,9 @@
   }
   .text-\[23px\] {
     font-size: 23px;
+  }
+  .text-\[25px\] {
+    font-size: 25px;
   }
   .text-\[28px\] {
     font-size: 28px;
