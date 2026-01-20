@@ -7,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-white: #fff;
     --spacing: 0.25rem;
     --container-7xl: 80rem;
     --text-xl: 1.25rem;
@@ -175,6 +176,9 @@
   .m-auto {
     margin: auto;
   }
+  .mt-20 {
+    margin-top: calc(var(--spacing) * 20);
+  }
   .flex {
     display: flex;
   }
@@ -195,6 +199,9 @@
   }
   .h-\[800px\] {
     height: 800px;
+  }
+  .h-full {
+    height: 100%;
   }
   .w-10 {
     width: calc(var(--spacing) * 10);
@@ -241,6 +248,9 @@
   .gap-3 {
     gap: calc(var(--spacing) * 3);
   }
+  .gap-5 {
+    gap: calc(var(--spacing) * 5);
+  }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
   }
@@ -282,6 +292,12 @@
   .bg-\[url\(\.\/img\/image\.png\)\] {
     background-image: url(./img/image.png);
   }
+  .bg-\[url\(\.\/img\/image18\.png\)\] {
+    background-image: url(./img/image18.png);
+  }
+  .bg-\[url\(\.\/img\/image19\.png\)\] {
+    background-image: url(./img/image19.png);
+  }
   .bg-cover {
     background-size: cover;
   }
@@ -300,15 +316,27 @@
   .p-5 {
     padding: calc(var(--spacing) * 5);
   }
+  .p-10 {
+    padding: calc(var(--spacing) * 10);
+  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
+  .pt-17 {
+    padding-top: calc(var(--spacing) * 17);
+  }
+  .pt-18 {
+    padding-top: calc(var(--spacing) * 18);
+  }
   .text-xl {
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
+  }
+  .text-\[40px\] {
+    font-size: 40px;
   }
   .text-\[70px\] {
     font-size: 70px;
@@ -327,6 +355,9 @@
   .text-\[\#274C5B\] {
     color: #274C5B;
   }
+  .text-white {
+    color: var(--color-white);
+  }
   .shadow-2xl {
     --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, rgb(0 0 0 / 0.25));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -334,6 +365,21 @@
   .lg\:flex {
     @media (width >= 64rem) {
       display: flex;
+    }
+  }
+  .lg\:h-\[300px\] {
+    @media (width >= 64rem) {
+      height: 300px;
+    }
+  }
+  .lg\:w-\[580px\] {
+    @media (width >= 64rem) {
+      width: 580px;
+    }
+  }
+  .lg\:flex-row {
+    @media (width >= 64rem) {
+      flex-direction: row;
     }
   }
   .lg\:px-20 {
